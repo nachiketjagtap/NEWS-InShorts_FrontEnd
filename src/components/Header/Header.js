@@ -8,36 +8,15 @@ const Header = ({ setcategory }) => {
         <div className="icon">
           <Menuicon setcategory={setcategory}></Menuicon>
         </div>
-        {/* <img
+        <img
           style={{ cursor: "pointer", paddingTop: "0.5rem" }}
-          src="https://assets.inshorts.com/website_assets/images/logo_inshorts.png "
-          height="80%"
+          src="/NEWS-InShorts-Logo.gif"
+          height="100%"
+          width="20%"
           alt="inshorts-logo"
-        /> */
-<h1 style={{ cursor: "pointer", paddingTop: "0.5rem", fontFamily: "cursive", fontSize: "2rem", color: "" }}>NEWS InShorts</h1>
-}
-        {/* <a
-          className="github-icon"
-          href="https://github.com/jatiinyadav/Inshorts-clone-ReactJs"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="github-icon"
-            style={{
-              position: "absolute",
-              right: "10px",
-              height: "2rem",
-              width: "2rem",
-              padding: "3px",
-              marginTop: "1.3rem",
-              background: "wheat",
-              cursor: "pointer",
-            }}
-            src="https://img.icons8.com/material-sharp/30/000000/github.png"
-            alt="github-icon"
-          />
-        </a> */}
+        /> 
+
+      
       </div>
     </div>
   );
